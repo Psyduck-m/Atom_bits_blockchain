@@ -17,7 +17,10 @@ In the web application, I am using JavaScript web3 library to interact with the 
 
 To display randomly selected strings from the data, I will use the JSON string retrieved from the smart contract and parse it using the JSON.parse() method, then select random elements from the array of objects.
 
-I will also try to add a sort of pop up to ask the individual if he or she is a professor or a student so that after connecting the metamask wallet, the "Add questions that you would like on the test" button turns grey and stops working if a student is the one that is accessing the application
+I will also try to add a sort of pop up to ask the individual if he or she is a professor or a student so that after connecting the metamask wallet, the "Add questions that you would like on the test" button turns grey and stops working if a student is the one that is accessing the application<br><br>
+
+The file structure of the repository would be such that:
+Along with the Readme file the home page would consist of two folders one that would include all the packages and the solidity code for the contract side and the other that would include all the javascript and the front end files together
 
       
 
