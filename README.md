@@ -5,6 +5,8 @@ Atom is a web application as the result of the recruitment task for BITS Blockch
 As far as the webpage is concerned it includes the title, a brief description of the task and 
 provides the user with the option to either enter in a new question or generate a question paper of 5 questions<br><br> 
 
+The application is made on the Goreli test nertwork so you are would need Goreli Eth in order to continue
+
 <ol>
   <li> Button 1:- Allows the professor to connect the metamask wallet
   <li> Button 2:- Provides the user(professor) with a place holder of "Add the questions that you would like on the test"
