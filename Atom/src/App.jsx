@@ -42,7 +42,7 @@ const App = () => {
             const { ethereum } = window;
 
             if (!ethereum) {
-                alert("Get MetaMask!");
+                alert("Connect the metamask wallet first");
                 return;
             }
 
@@ -61,6 +61,7 @@ const App = () => {
   const getRandomWaves = async () => {
     try {  setRandomWaves([]);
 
+        const { ethereum } = window;
 
 
 
@@ -81,7 +82,10 @@ const App = () => {
         setRandomWaves(randomWaves);
   
             } else {
+                alert("Connect the metamask wallet first");
+                
                 console.log("Ethereum object doesn't exist!");
+                return;
             }
 
         
@@ -114,7 +118,9 @@ const App = () => {
                 count = await wavePortalContract.getTotalWaves();
                 console.log("Retrieved total wave count...", count.toNumber());
             } else {
+                alert("Connect the metamask wallet first");
                 console.log("Ethereum object doesn't exist!");
+                return;
             }
         } catch (error) {
             console.log(error);
